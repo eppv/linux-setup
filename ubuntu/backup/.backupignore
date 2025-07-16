@@ -1,0 +1,10 @@
+*.log
+.tmp/
+.cache/
+Downloads/
+Videos/
+.steam/debian-installation/steamapps/
+downloads/
+media/video/
+video/
+pictures/
