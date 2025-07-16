@@ -4,4 +4,4 @@ A collection of scripts and utilities for setting up various distributions of Li
 
 ## Distributions
 * Ubuntu
-* [Alt Linux Workstation](alt/README.md)
+* [Alt Linux](alt/README.md)
