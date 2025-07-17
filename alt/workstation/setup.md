@@ -54,9 +54,14 @@ curl -sL https://raw.githubusercontent.com/eppv/linux-setup/refs/heads/main/alt/
 * Telegram Client (Telegram Desktop, либо [Auygram](https://github.com/AyuGram/AyuGramDesktop))
 * [Syncthing](https://syncthing.net/) - синхронизация файлов между устройствами (p2p)
 * [Obsidian](https://obsidian.md/)
-* [Zed](https://zed.sh/) - редактор кода
+* [Zed](https://zed.dev/) - редактор кода
 * neofetch
 * btop
+
+```bash
+sudo su -
+curl -sL https://raw.githubusercontent.com/eppv/linux-setup/refs/heads/main/alt/workstation/install-apps.sh | bash
+```
 
 ### Рабочие
 * [openfortivpn](https://github.com/adrienverge/openfortivpn) - альтернативный консольный клиент для Fortinet VPN
