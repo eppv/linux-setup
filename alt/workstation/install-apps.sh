@@ -17,10 +17,10 @@ flatpak install -y flathub md.obsidian.Obsidian
 HOME="/home/$USER_NAME"
 
 # zed
-sudo -E -u $USER_NAME bash -c 'echo "Installing Zed...to $HOME"'
-sudo -E -u $USER_NAME bash -c 'curl -f https://zed.dev/install.sh | sh'
-sudo -E -u $USER_NAME bash -c 'echo "export PATH=$HOME/.local/bin:$PATH" >> $HOME/.bashrc'
-sudo -E -u $USER_NAME bash -c 'echo "export PATH=$HOME/.local/bin:$PATH" >> $HOME/.zshrc'
+echo "Installing Zed...to $HOME"
+curl -f https://zed.dev/install.sh | sh
+echo "export PATH=$HOME/.local/bin:$PATH" >> $HOME/.bashrc
+echo "export PATH=$HOME/.local/bin:$PATH" >> $HOME/.zshrc
 
 
 # User apps configuration

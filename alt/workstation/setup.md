@@ -41,7 +41,7 @@
 
 ```bash
 su -
-curl -sL https://raw.githubusercontent.com/eppv/linux-setup/refs/heads/main/alt/workstation/initconf.sh | bash
+curl -sL https://raw.githubusercontent.com/eppv/linux-setup/refs/heads/main/alt/workstation/initconf.sh | sh
 ```
 
 ## Установка приложений
@@ -60,7 +60,7 @@ curl -sL https://raw.githubusercontent.com/eppv/linux-setup/refs/heads/main/alt/
 
 ```bash
 sudo su -
-curl -sL https://raw.githubusercontent.com/eppv/linux-setup/refs/heads/main/alt/workstation/install-apps.sh | bash
+curl -sL https://raw.githubusercontent.com/eppv/linux-setup/refs/heads/main/alt/workstation/install-apps.sh | sh
 ```
 
 ### Рабочие
