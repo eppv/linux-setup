@@ -1,9 +1,9 @@
 
-USERNAME=$(getent passwd 1000 | cut -d: -f1)
 HOSTNAME=$(hostname)
+USER_NAME=$(id -nu 1000)
 
 # user sudo config
-echo "$USERNAME $HOSTNAME=(ALL) ALL" >> /etc/sudoers.d/$USERNAME
+echo "$USER_NAME $HOSTNAME=(ALL) ALL" >> /etc/sudoers.d/$USER_NAME
 
 # gsettings preset
 
