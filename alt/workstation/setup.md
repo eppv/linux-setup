@@ -64,10 +64,11 @@ curl -sL https://raw.githubusercontent.com/eppv/linux-setup/refs/heads/main/alt/
 ```
 
 ### Рабочие
-* [openfortivpn](https://github.com/adrienverge/openfortivpn) - альтернативный консольный клиент для Fortinet VPN
-* [openconnect](https://www.infradead.org/openconnect/) - альтернативный консольный клиент для разных VPN
+* [openconnect](https://www.infradead.org/openconnect/) - альтернативный консольный клиент для разных VPN, либо:
+  * [openfortivpn](https://github.com/adrienverge/openfortivpn) - альтернативный консольный клиент для Fortinet VPN
+* [gnome-connections](https://gitlab.gnome.org/GNOME/gnome-connections) - базовый клиент для удаленного доступа в GNOME
 * [Remmina](https://remmina.org/) - клиент для удаленного доступа к удаленным рабочим станциям
-* [gnome-connections](https://gitlab.gnome.org/GNOME/gnome-connections) - альтернатива Remmina
+
 
 ### Офисные
 * OnlyOffice Desktop Editors - офисные приложения для работы с документами, таблицами и презентациями
@@ -77,7 +78,7 @@ curl -sL https://raw.githubusercontent.com/eppv/linux-setup/refs/heads/main/alt/
 * [mpv](https://mpv.io/) - легковесный консольный медиаплеер
 
 ### Разработка
-* [uv](https://uv.sh/) - менеджер пакетов для Python
+* [uv](https://github.com/astral-sh/uv) - менеджер пакетов для Python
 * [rustup](https://rustup.rs/) - инструмент для установки и управления Rust
 * [go](https://golang.org/) - язык программирования Google
 * node.js - платформа для создания веб-приложений
