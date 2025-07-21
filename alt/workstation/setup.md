@@ -91,6 +91,8 @@ curl -sL https://raw.githubusercontent.com/eppv/linux-setup/refs/heads/main/alt/
 * Steam
 * [PyCharm](https://www.jetbrains.com/pycharm/) - интегрированная среда разработки для Python
 * [Grist](https://grist.com/) - платформа для работы с таблицами и документами
+* [zellij](https://zellij.dev/) - мультиплексор терминалов
+* [Flatseal] - инструмент для управления Flatpak-приложениями
 
 ### Конфигурация пользовательского окружения
 * Установка шорткатов для клавиатуры
