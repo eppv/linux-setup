@@ -23,10 +23,12 @@ echo "export PATH=$HOME/.local/bin:$PATH" >> $HOME/.bashrc
 echo "export PATH=$HOME/.local/bin:$PATH" >> $HOME/.zshrc
 
 ## syncthing
-## TODO: download syncthing
-sudo tar -C '/opt' -xvf Downloads/syncthing*
+curl -f https://github.com/syncthing/syncthing/releases/download/v2.0.10/syncthing-linux-amd64-v2.0.10.tar.gz ~/Downloads/syncthing-linux-amd64-v2.0.10.tar.gz
+sudo tar -C '/opt' -xvf ~/Downloads/syncthing-linux-amd64-v2.0.10.tar.gz
 mkdir -p .config/systemd/user
-mv Downloads/syncthing.service ~/.config/systemd/user/syncthing.service
+curl -f https://raw.githubusercontent.com/syncthing/syncthing/refs/heads/main/etc/linux-systemd/user/syncthing.service > ~/.config/systemd/user/syncthing.service
+## TODO: Change ExecStart=/opt/syncthing/syncthing -no-browser --no-restart --logflags=0
+## TODO: Run from ordinary user: systemctl --user enable --now syncthing.service
 
 # work apps
 
