@@ -101,6 +101,26 @@ curl -sL https://raw.githubusercontent.com/eppv/linux-setup/refs/heads/main/alt/
   * `Ctrl + Alt + B` - запуск браузера
   * `Ctrl + Alt + O` - запуск Obsidian
 
-* Настройка zsh
-  * Установка Oh My Zsh
-  * Настройка плагинов и темы
+#### Настройка zsh
+
+Установка Oh My Zsh:
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+Настройка плагинов и темы **powerlevel10k**:
+```bash
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
+```
+
+Изменить ZSH_THEME="powerlevel10k/powerlevel10k" в ~/.zshrc
+
+Установить плагины на автопредложения и подсветку синтаксиса:
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+Добавить плагины в ~/.zshrc:
+```bash
+plugins=(zsh-autosuggestions zsh-syntax-highlighting)
+```
