@@ -1,0 +1,8 @@
+#!/bin/bash
+
+gpg --quiet --decrypt /etc/vpn/pass.gpg | sudo openconnect \
+    --protocol=fortinet \
+    --user=user@mail.com \
+    --servercert yourcert ]
+    --passwd-on-stdin \
+    vpn.example.com

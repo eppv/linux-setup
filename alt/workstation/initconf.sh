@@ -17,3 +17,7 @@ gsettings set org.gnome.mutter auto-maximize false
 ## clock show date, 24h format
 gsettings set org.gnome.desktop.interface clock-show-date true
 gsettings set org.gnome.desktop.interface clock-format 24h
+
+mkdir code
+mkdir code/dev
+mkdir code/prod

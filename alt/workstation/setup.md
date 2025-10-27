@@ -84,14 +84,13 @@ curl -sL https://raw.githubusercontent.com/eppv/linux-setup/refs/heads/main/alt/
 * node.js - платформа для создания веб-приложений
 * [Docker](https://www.docker.com/) - платформа для разработки, тестирования и запуска приложений в контейнерах
 * [ALR](https://gitea.plemya-x.ru/Plemya-x/ALR)
-
+* [zellij](https://zellij.dev/) - мультиплексор терминалов
 
 ### Прочее
 * qBittorrent - клиент для скачивания торрентов
 * Steam
 * [PyCharm](https://www.jetbrains.com/pycharm/) - интегрированная среда разработки для Python
 * [Grist](https://grist.com/) - платформа для работы с таблицами и документами
-* [zellij](https://zellij.dev/) - мультиплексор терминалов
 * [Flatseal] - инструмент для управления Flatpak-приложениями
 
 ### Конфигурация пользовательского окружения
