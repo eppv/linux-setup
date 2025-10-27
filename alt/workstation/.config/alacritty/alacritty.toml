@@ -1,0 +1,16 @@
+[window]
+opacity = 0.95
+padding = { x = 2, y = 2 }
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+
+[colors]
+transparent_background_colors = true
+
+# [terminal] # for usage with zellij
+# shell = { program = "/bin/zsh", args = [
+#     "-l",
+#     "-c",
+#     "zellij attach eppv-regular",
+# ] }
