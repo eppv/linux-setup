@@ -8,10 +8,16 @@ apt-get update &&
 # basic apps
 ## with APT
 echo "Installing basic apps with APT..."
-apt-get install -y git alacritty telegram-desktop neofetch btop &&
+apt-get install -y eepm git telegram-desktop neofetch btop &&
 
 ## with Flatpak
-flatpak install -y flathub md.obsidian.Obsidian
+# flatpak install -y flathub md.obsidian.Obsidian
+# it is not recommended way to install Obsidian, now the best way is to install by epm
+
+## with epm
+epm play yandex-browser
+epm play obsidian
+
 
 # HOME override!
 HOME="/home/$USER_NAME"
