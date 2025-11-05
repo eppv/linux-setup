@@ -8,7 +8,7 @@ apt-get update &&
 # basic apps
 ## with APT
 echo "Installing basic apps with APT..."
-apt-get install -y eepm git telegram-desktop neofetch btop &&
+apt-get install -y eepm git telegram-desktop fastfetch btop &&
 
 ## with Flatpak
 # flatpak install -y flathub md.obsidian.Obsidian

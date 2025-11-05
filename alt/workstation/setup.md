@@ -55,7 +55,7 @@ curl -sL https://raw.githubusercontent.com/eppv/linux-setup/refs/heads/main/alt/
 * [Syncthing](https://syncthing.net/) - синхронизация файлов между устройствами (p2p)
 * [Obsidian](https://obsidian.md/)
 * [Zed](https://zed.dev/) - редактор кода
-* neofetch
+* fastfetch
 * btop
 
 ```bash
@@ -64,9 +64,7 @@ curl -sL https://raw.githubusercontent.com/eppv/linux-setup/refs/heads/main/alt/
 ```
 
 ### Рабочие
-* [openconnect](https://www.infradead.org/openconnect/) - альтернативный консольный клиент для разных VPN, либо:
-  * [openfortivpn](https://github.com/adrienverge/openfortivpn) - альтернативный консольный клиент для Fortinet VPN
-* [gnome-connections](https://gitlab.gnome.org/GNOME/gnome-connections) - базовый клиент для удаленного доступа в GNOME
+* [openconnect](https://www.infradead.org/openconnect/) - альтернативный консольный клиент для разных VPN (есть в поставке Workstation)
 * [Remmina](https://remmina.org/) - клиент для удаленного доступа к удаленным рабочим станциям
 
 
@@ -80,17 +78,18 @@ curl -sL https://raw.githubusercontent.com/eppv/linux-setup/refs/heads/main/alt/
 ### Разработка
 * [uv](https://github.com/astral-sh/uv) - менеджер пакетов для Python
 * [rustup](https://rustup.rs/) - инструмент для установки и управления Rust
+* [cargo-binstall](https://crates.io/crates/cargo-binstall) - утилита, позволяющая устанавливать бинарники через cargo
 * [go](https://golang.org/) - язык программирования Google
 * node.js - платформа для создания веб-приложений
 * [Docker](https://www.docker.com/) - платформа для разработки, тестирования и запуска приложений в контейнерах
-* [ALR](https://gitea.plemya-x.ru/Plemya-x/ALR)
 * [zellij](https://zellij.dev/) - мультиплексор терминалов
+* [ALR](https://gitea.plemya-x.ru/Plemya-x/ALR)
 
 ### Прочее
 * qBittorrent - клиент для скачивания торрентов
 * Steam
-* [PyCharm](https://www.jetbrains.com/pycharm/) - интегрированная среда разработки для Python
 * [Grist](https://grist.com/) - платформа для работы с таблицами и документами
+* [PyCharm](https://www.jetbrains.com/pycharm/) - интегрированная среда разработки для Python
 * [Flatseal] - инструмент для управления Flatpak-приложениями
 
 ### Конфигурация пользовательского окружения
