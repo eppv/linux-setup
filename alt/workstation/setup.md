@@ -84,6 +84,7 @@ curl -sL https://raw.githubusercontent.com/eppv/linux-setup/refs/heads/main/alt/
 * [Docker](https://www.docker.com/) - платформа для разработки, тестирования и запуска приложений в контейнерах
 * [zellij](https://zellij.dev/) - мультиплексор терминалов
 * [ALR](https://gitea.plemya-x.ru/Plemya-x/ALR)
+* [scc](https://github.com/boyter/scc) - утилита для анализа проектов с кодом
 
 ### Прочее
 * qBittorrent - клиент для скачивания торрентов
