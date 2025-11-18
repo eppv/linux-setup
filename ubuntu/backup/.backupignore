@@ -8,3 +8,12 @@ downloads/
 media/video/
 video/
 pictures/
+etc/ufw/
+etc/cloud/
+etc/sudoers
+etc/sudoers.d/
+etc/shadow/
+etc/gshadow/
+etc/cups/
+etc/security/
+etc/ssh/

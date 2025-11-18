@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # default args
-DEFAULT_SOURCE="$HOME /etc /var"
+DEFAULT_SOURCE="$HOME /etc"
 DEFAULT_BACKUP="/mnt/backup/system"
 DEFAULT_EXCLUDE_FILE=".backupignore"
 DEFAULT_LOG_FILE="$HOME/backup.log"
