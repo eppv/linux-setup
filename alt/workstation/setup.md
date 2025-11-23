@@ -122,3 +122,15 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```bash
 plugins=(zsh-autosuggestions zsh-syntax-highlighting)
 ```
+
+#### Gnome Shell Extensions
+
+Для установки расширений Gnome Shell через браузер необходим пакет `gnome-browser-connector` (есть в репозитории p11).
+
+Расширения:
+* [Dash To Dock](https://extensions.gnome.org/extension/307/dash-to-dock/) - панель задач, как в Ubuntu
+* [Caffeine](https://extensions.gnome.org/extension/517/caffeine/) - блокировка сна
+* [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/) - индикатор буфера обмена (есть в Alt Workstation по умолчанию)
+* [gTile](https://extensions.gnome.org/extension/28/gtile/) - раскладка окон на мониторе
+* [Session Keeper](https://altlinux.space/alt-gnome/session-keeper) - сохранение сессии при выключении (есть в Alt Workstation по умолчанию)
+* [Vitals](https://extensions.gnome.org/extension/1460/vitals/) - мониторинг системных ресурсов
