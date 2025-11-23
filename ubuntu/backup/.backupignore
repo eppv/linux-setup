@@ -1,19 +1,35 @@
 *.log
 .tmp/
 .cache/
+
+## home
 Downloads/
 Videos/
-.steam/debian-installation/steamapps/
+
 downloads/
-media/video/
-video/
+
 pictures/
-etc/ufw/
-etc/cloud/
-etc/sudoers
-etc/sudoers.d/
-etc/shadow/
-etc/gshadow/
-etc/cups/
-etc/security/
-etc/ssh/
+.ssh/
+
+### Uncomment if needed to ignore big media files
+# media/video/
+# video/
+
+## Comment if needed to backup Steam files
+.steam/
+
+## Comment if needed to backup compiled go and rust binaries and other files
+go/
+.cargo/
+.rustup/
+
+## etc
+/etc/ufw/
+/etc/cloud/
+/etc/sudoers
+/etc/sudoers.d/
+/etc/shadow/
+/etc/gshadow/
+/etc/cups/
+/etc/security/
+/etc/ssh/
