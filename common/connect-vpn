@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gpg --quiet --decrypt /etc/vpn/pass.gpg | sudo openconnect \
+gpg --quiet --decrypt /etc/vpn/pass.gpg | openconnect \
     --protocol=fortinet \
     --user=user@mail.com \
     --servercert yourcert ]
